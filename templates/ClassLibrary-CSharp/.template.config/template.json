@@ -1,0 +1,53 @@
+{
+    "$schema": "http://json.schemastore.org/template",
+    "author": "husaft",
+    "classifications": [
+        "Common",
+        "Library"
+    ],
+    "name": "Class Library (Retro)",
+    "groupIdentity": "RetroExtensions.Common.Library",
+    "precedence": "8000",
+    "identity": "RetroExtensions.Common.Library.CSharp.6.0",
+    "shortName": "classlib-retro",
+    "tags": {
+        "language": "C#",
+        "type": "project"
+    },
+    "sourceName": "Example",
+    "preferNameDirectory": true,
+    "symbols": {
+        "TargetFrameworkOverride": {
+            "type": "parameter",
+            "description": "Overrides the target framework",
+            "replaces": "TargetFrameworkOverride",
+            "datatype": "string",
+            "defaultValue": "",
+            "displayName": "Target framework override"
+        },
+        "Framework": {
+            "type": "parameter",
+            "description": "The target framework for the project.",
+            "datatype": "choice",
+            "choices": [
+                {
+                    "choice": "net6.0",
+                    "description": "Target net6.0",
+                    "displayName": ".NET 6.0"
+                }
+            ],
+            "replaces": "net6.0",
+            "defaultValue": "net6.0",
+            "displayName": "Framework"
+        },
+        "langVersion": {
+            "type": "parameter",
+            "datatype": "text",
+            "description": "Sets the LangVersion property in the created project file",
+            "defaultValue": "",
+            "replaces": "$(ProjectLanguageVersion)",
+            "displayName": "Language Version"
+        }
+    },
+    "defaultName": "ClassLibrary1"
+}
