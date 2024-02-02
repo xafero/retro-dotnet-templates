@@ -1,8 +1,8 @@
 @echo off
 
 dotnet pack --configuration Release
-dotnet new --uninstall Retro.DotNet.Templates
-dotnet new --install nupkg\Retro.DotNet.Templates.0.0.1.nupkg
+dotnet new uninstall Retro.DotNet.Templates
+dotnet new install nupkg\Retro.DotNet.Templates.0.0.2.nupkg
 
 rd /s /q test
 mkdir test
