@@ -7,13 +7,13 @@ namespace Example
 {
     internal static class Program
     {
-        private static async Task Main(string[] args)
+        private static void Main(string[] args)
         {
             var builder = Host.CreateApplicationBuilder(args);
             builder.Services.AddHostedService<Worker>();
 
             var host = builder.Build();
-            await host.RunAsync();
+            host.Run();
         }
     }
 }
