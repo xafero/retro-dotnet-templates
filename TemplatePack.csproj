@@ -2,18 +2,18 @@
 
   <PropertyGroup>
     <PackageType>Template</PackageType>
-    <PackageVersion>0.0.1</PackageVersion>
+    <PackageVersion>0.0.2</PackageVersion>
     <PackageId>Retro.DotNet.Templates</PackageId>
     <Title>Retro DotNet Templates</Title>
     <Authors>Public Extensions</Authors>
-    <Description>.NET 6+ project templates that do not use modern crap.</Description>
+    <Description>.NET 8+ project templates that do not use modern crap.</Description>
     <PackageTags>dotnet-new;templates;retro;top;level</PackageTags>
     <PackageOutputPath>nupkg</PackageOutputPath>
     <PackageLicenseExpression>AGPL-3.0-or-later</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/husaft/retro-dotnet-templates</PackageProjectUrl>
     <PackageReadmeFile>readme.md</PackageReadmeFile>
 
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
 
     <IncludeContentInPack>true</IncludeContentInPack>
     <IncludeBuildOutput>false</IncludeBuildOutput>

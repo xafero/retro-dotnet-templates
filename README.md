@@ -1,6 +1,6 @@
 # retro-dotnet-templates
 
-Provides .NET 6+ project templates that do not use modern crap.
+Provides .NET 8+ project templates that do not use modern crap.
 
 Installing this package using `dotnet` will make the templates available in both Visual Studio 2022 and the `dotnet new` CLI command.
 
